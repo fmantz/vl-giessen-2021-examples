@@ -1,0 +1,38 @@
+@namespace(	uri="http://de.fmantz",	prefix="")
+package domain;
+
+abstract class Person{
+	
+}
+
+class WissenschaftlicheHilfskraft extends Person{
+ 	attr int personalNummer; //personalNummer hat unterschieliche Typen (kein pullup)
+ 	attr int matrikelNummer; //nicht überall vorhanden  (kein pullup)
+ 	attr String name;
+	attr String telefonNummer;
+	attr String handy; //nicht überall vorhanden  (kein pullup)
+	attr String email;	
+}
+
+class Professor extends Person{
+	attr int personalNummer;
+	attr String name;
+	attr String telefonNummer;
+	attr String handy;
+	attr String email;	
+}
+
+class Verwaltungsangestellter extends Person{
+	attr String personalNummer; 
+	attr String name;
+	attr String telefonNummer;
+	attr String email;	
+}
+
+class Gastdozent extends Person{
+	attr int personalNummer;
+	attr String name;
+	attr String telefonNummer;
+	attr String handy;
+	attr String email;	
+}

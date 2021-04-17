@@ -1,0 +1,18 @@
+@namespace(	uri="http://de.fmantz",	prefix="")
+package domain;
+
+class Student {
+ 	attr int matrikelNummer;
+ 	attr String name;
+	attr String telefonNummer;
+	attr String handy;
+	attr String email;	
+}
+
+class Professor {
+	attr int personalNummer;
+	attr String name;
+	attr String telefonNummer;
+	attr String handy;
+	attr String email;	
+}

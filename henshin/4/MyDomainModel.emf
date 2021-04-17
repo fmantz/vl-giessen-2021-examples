@@ -1,0 +1,29 @@
+@namespace(	uri="http://de.fmantz",	prefix="")
+package domain;
+
+abstract class Person{
+	
+}
+
+class Student extends Person{
+ 	attr int matrikelNummer;
+ 	attr String name;
+	attr String telefonNummer;
+	attr String handy;
+	attr String email;	
+}
+
+class Professor extends Person{
+	attr int personalNummer;
+	attr String name;
+	attr String telefonNummer;
+	attr String handy;
+	attr String email;	
+}
+
+class Verwaltungsangestellter extends Person{
+	attr String personalNummer;
+	attr String name;
+	attr String telefonNummer;
+	attr String email;	
+}
